@@ -1,0 +1,15 @@
+{
+  "name": "s3-image-resize-lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AWS Lambda 图片缩放示例（S3 输入 / S3 输出）",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test validateKey.test.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "@aws-sdk/client-s3": "^3.665.0"
+  },
+  "license": "MIT"
+}
